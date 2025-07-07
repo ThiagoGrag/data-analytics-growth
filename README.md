@@ -26,10 +26,13 @@ Fiz avaliações de resumo e notei dados duplicados order_id.
 Retirei as duplicações.
 
 ## Tabelas:
-orders_enriched = tabela com os joins para unir a order, merchant, consumer e test_ab
-orders_time = tabela com os joins para unir a order, merchant, consumer e test_ab com o dado de data da criação do pedido.
-orders_time_distinct = tabela sem as duplicações.
-orders_time_distinct_class = tabela com os campos de classificação no delivery_time e minimum_order_value
+orders_enriched = tabela com os joins para unir a order, merchant, consumer e test_ab;
+
+orders_time = tabela com os joins para unir a order, merchant, consumer e test_ab com o dado de data da criação do pedido;
+
+orders_time_distinct = tabela sem as duplicações;
+
+orders_time_distinct_class = tabela com os campos de classificação no delivery_time e minimum_order_value.
 
 ## Pasta: gold -> model_order
 Reduzi a base para balancear as variáveis.
@@ -51,15 +54,24 @@ Região
 Cluster
 
 ## Tabelas
-abtest_cluster = tabela com a informação de cluster e dados para a avaliação estatística.
-abtest_delivery_time = tabela com a informação de do tempo de entrega e dados para a avaliação estatística.
-abtest_minium_value = tabela com a informação de valor mínimo e dados para a avaliação estatística.
-abtest_platform = tabela com a informação de plataforma de origem e dados para a avaliação estatística.
-abtest_price_range = tabela com a informação de faixa de preço e dados para a avaliação estatística.
-abtest_region = tabela com a informação de região e dados para a avaliação estatística.
-orders_model = tabela com a informação de pedidos pronta para o modelo, já selecionando as colunas que serão utilizadas no modelo.
-orders_model = tabela com a informação de pedidos pronta para o modelo e análise do testeab, mantive alguns campos que vou utilizar nas análises.
-orders_model_cluster_result = tabela final após rodar o modelo K-prototype com os clusters
+abtest_cluster = tabela com a informação de cluster e dados para a avaliação estatística;
+
+abtest_delivery_time = tabela com a informação de do tempo de entrega e dados para a avaliação estatística;
+
+abtest_minium_value = tabela com a informação de valor mínimo e dados para a avaliação estatística;
+
+abtest_platform = tabela com a informação de plataforma de origem e dados para a avaliação estatística;
+
+abtest_price_range = tabela com a informação de faixa de preço e dados para a avaliação estatística;
+
+abtest_region = tabela com a informação de região e dados para a avaliação estatística;
+
+orders_model = tabela com a informação de pedidos pronta para o modelo, já selecionando as colunas que serão utilizadas no modelo;
+
+orders_model = tabela com a informação de pedidos pronta para o modelo e análise do testeab, mantive alguns campos que vou utilizar nas análises;
+
+orders_model_cluster_result = tabela final após rodar o modelo K-prototype com os clusters;
+
 orders_segmentados = tabela somente com os clusters, mas sem as informações necessárias para rodar o teste ab.
 
 
